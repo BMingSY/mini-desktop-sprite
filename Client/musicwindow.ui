@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>musicWindow</class>
+ <widget class="QMainWindow" name="musicWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>893</width>
+    <height>160</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>musicWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="air">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>92</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>air</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="relaxed">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>20</y>
+      <width>92</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>relaxed</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="shime">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>20</y>
+      <width>92</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>shime</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="site">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>20</y>
+      <width>92</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>site</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="special">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>20</y>
+      <width>92</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>special</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stand">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>20</y>
+      <width>92</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>stand</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="show">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>70</y>
+      <width>92</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>show</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="close">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>70</y>
+      <width>92</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>close</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>893</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
