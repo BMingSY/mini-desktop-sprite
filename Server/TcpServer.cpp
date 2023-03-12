@@ -6,7 +6,7 @@ TcpServer::TcpServer()
     //链接数据库
     mysql_init(&mysql);
 
-    if (mysql_real_connect(&mysql, "47.97.105.213", "kws", "111111", "desktop_sprite", 3306, nullptr, CLIENT_FOUND_ROWS))
+    if (mysql_real_connect(&mysql, "127.0.0.1", "root", "111111", "desktop_sprite", 3306, nullptr, CLIENT_FOUND_ROWS))
         std::cout << "链接成功" << std::endl;
     else
         std::cout << "连接失败" << std::endl;
